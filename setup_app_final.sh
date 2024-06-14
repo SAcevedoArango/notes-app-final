@@ -5,7 +5,7 @@
 # 1. Clone Repository
 echo "Cloning repository..."
 git clone https://github.com/SAcevedoArango/notes-app-final.git || { echo "Repository cloning failed!"; exit 1; }
-cd notes-app-layering 
+cd notes-app-final
 
 # 2. Install Node.js 18.x (If Not Already Installed)
 NODE_VERSION=$(node -v)
