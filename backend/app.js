@@ -6,7 +6,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Use note routes
 app.use("/api/notes", noteRoutes);
 
 app.listen(5000, () => {
