@@ -83,7 +83,7 @@ Type Definitions (TypeScript)
 
 Open Bash at the directory where the repository will be cloned and execute "setup_app_final.sh". The script should execute a series of instructions aimed at setting up the backend and frontend with just that command in any OS with Bash.
 
-```bash
+```sh
 ./setup_app_final.sh
 ```
 ### Usage
