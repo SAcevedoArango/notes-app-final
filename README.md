@@ -83,14 +83,26 @@ Type Definitions (TypeScript)
 
 Open Bash at the directory where the repository will be cloned and execute "setup_app_final.sh". The script should execute a series of instructions aimed at setting up the backend and frontend with just that command in any OS with Bash.
 
-```bash
+```sh
 ./setup_app_final.sh
 ```
 ### Usage
 
-The frontend will be accessible at http://localhost:3000.
+To manually start the backend using bash, navigate to the backend folder and enter:
+
+```sh
+node app.js
+```
 
 The backend API will be available at http://localhost:5000
+
+To manually start the frontend using bash, navigate to the frontend folder and enter:
+
+```sh
+npm start
+```
+
+The frontend will be accessible at http://localhost:3000.
 
 
 ## Side Notes
