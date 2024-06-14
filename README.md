@@ -13,6 +13,26 @@ This application is let users add, edit, delete and archive/unarchive notes. The
 
 This app was created using React Native for the frontend and Node.js, Express for the backend, with the Prisma ORM and PostgreSQL for database management.
 
+## Set Environment Variables
+
+```sh
+# Set the environment variables
+export DB_USER="avnadmin"
+export DB_PASSWORD="AVNS_nt6euf98TOFMEAQ6QB6"
+export DB_HOST="notes-app-react-notes-app-react.c.aivencloud.com"
+export DB_PORT="24147"
+export DB_NAME="defaultdb"
+export DB_SSLMODE="require"
+# Verify the environment variables
+echo "Environment variables set:"
+echo "DB_USER=$DB_USER"
+echo "DB_PASSWORD=$DB_PASSWORD"
+echo "DB_HOST=$DB_HOST"
+echo "DB_PORT=$DB_PORT"
+echo "DB_NAME=$DB_NAME"
+echo "DB_SSLMODE=$DB_SSLMODE"
+```
+
 ## Dependencies
 
 ### Frontend
